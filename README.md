@@ -7,7 +7,7 @@ This project implements a **Multi-Format Data Serialization System** in **C++**,
 It is ideal for **scientific computing simulations, embedded systems, and backend applications**, where multiple sensor types must be processed and stored efficiently.
 
 ---
-
+![image alt](https://github.com/Abdullah-PyDev/Multi-Format-Data-Serialization/blob/main/Data%20Serialisation%20Front%20Cover.jpeg?raw=true)
 ## Project Overview
 
 
