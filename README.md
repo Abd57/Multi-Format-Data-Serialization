@@ -7,8 +7,14 @@ This project implements a **Multi-Format Data Serialization System** in **C++**,
 It is ideal for **scientific computing simulations, embedded systems, and backend applications**, where multiple sensor types must be processed and stored efficiently.
 
 ---
+## Demo Video
 
+<video width="640" height="360" controls>
+  <source src="recording.webm" type="video/webm">
+  Your browser does not support the video tag.
+</video>
 ## Project Overview
+
 
 In many real-world applications, such as **IoT sensor networks**, **scientific experiments**, or **embedded systems**, sensors generate **heterogeneous data** (integers, floating-point values, strings, or binary blobs). Storing these in a naive way can waste memory and reduce performance.  
 
