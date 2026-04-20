@@ -19,6 +19,7 @@ union DataValue {
 };
 
 // 3. Structure combining everything
+cout<<"My Contribution";
 struct SensorReading {
     dataType type;
     DataValue value;
