@@ -4,7 +4,8 @@
 using namespace std;
 
 // 1. Enum to identify data type
-enum DataType {
+cout << "Updated code with memory information and cleanup\n";
+enum dataType {
     TYPE_INT,
     TYPE_DOUBLE,
     TYPE_STRING
@@ -19,7 +20,7 @@ union DataValue {
 
 // 3. Structure combining everything
 struct SensorReading {
-    DataType type;
+    dataType type;
     DataValue value;
     unsigned long timestamp;
     int sensorId;
@@ -133,7 +134,7 @@ int main() {
     }
 
     cout << "\n=== Memory Information ===\n";
-    cout << "Size of enum: " << sizeof(DataType) << " bytes\n";
+    cout << "Size of enum: " << sizeof(dataType) << " bytes\n";
     cout << "Size of union: " << sizeof(DataValue) << " bytes\n";
     cout << "Size of struct: " << sizeof(SensorReading) << " bytes\n";
     cout << "Memory saved by union: "
